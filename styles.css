@@ -1,0 +1,156 @@
+body{
+  font-family: roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.header{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.container{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+}
+.leftside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap:12px;
+}
+
+.links{
+  display: flex;
+  gap: 24px;
+}
+
+.header,
+.container,
+.footer{
+  background-color: #1F2937;
+  color: #fff;
+}
+
+.container-text{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+button{
+  background-color: #3882F6;
+  color: #fff;
+  width: 130px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: thin;
+  border: white;
+}
+
+.box-text{
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #1F2937;
+}
+
+.box-section{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex: 1;
+  height: 300px;
+  align-items: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4{
+  max-width: 150px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a,
+.container-text-description{
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+img{
+  border-radius: 25px;
+}
+
+.quote-box{
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  height: 350px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote{
+  margin: 0 280px;
+
+}
+
+.quote-author{
+  font-size: 24px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 299px;
+  font-weight: bold;
+}
+
+.call-to-action-box{
+  display: flex;
+  height: 140px;
+  margin: 120px 150px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background: #3882f6;
+  color: white;
+  border-radius: 20px;
+}
+.call-to-action{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.footer{
+  height: 70px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.signup2{
+  border: 2px solid white;
+}
